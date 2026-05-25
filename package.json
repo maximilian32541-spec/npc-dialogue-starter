@@ -1,0 +1,12 @@
+{
+  "name": "npc-dialogue-starter",
+  "version": "0.1.0",
+  "description": "Starter template for LLM-powered NPC dialogue systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["npc", "dialogue", "llm", "game-ai"],
+  "license": "MIT"
+}
