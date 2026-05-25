@@ -24,6 +24,17 @@ Player Input → Context Builder → LLM API → Response Parser → Game Engine
 - Character personality injection via system prompts
 - Response parsing with emotion/action tags
 - Conversation history windowing
+- Input validation for config and NPC IDs
+- Emotion-aware temperature control
+
+## Modules
+
+| Module | Description |
+|--------|-------------|
+| `DialogueManager` | Core dialogue generation with session history |
+| `ContextBuilder` | NPC profile-based context injection |
+| `MemoryStore` | Long-term NPC memory with relevance scoring |
+| `Emotion System` | Emotion-aware prompt modification |
 
 ## License
 
